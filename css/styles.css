@@ -1,0 +1,132 @@
+/*Base Element Styles */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 1em/1.5;
+  color: #184f68;
+	background-color:#F4F6F6  ;
+	background-size:cover;
+}
+
+
+
+h1 {
+	font-size: 2.5em;
+	margin: 0;
+	color:#85929E ;
+	font-family:oblique;
+}
+
+a {
+  text-decoration: none;
+}
+.dropbtn {
+    background-color: #F2F3F4;
+    color: #85929E ;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    
+}
+
+.dropdown-content a {
+list-style: inside url("sqpurple.gif");
+border:1px solid #F8F9F9 ;
+list-style-position:inside;
+font-size:1.2em;
+background:#F8F9F9;
+    margin: 5px;
+	}
+
+.dropdown-content a:hover {background-color: #F8F9F9}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #F8F9F9;
+}
+
+/*page style*/
+
+#select-iten{
+box-shadow:4px 4Px 2px rgba(0,0,0,.2);
+background-color:#F8F9F9;
+background-size:cover;
+margin:auto;
+padding:10% 10%;
+border:1px solid #D6DBDF;
+line-height:2;
+width:90%;
+height:90%;
+}
+#head_main{
+box-shadow:4px 4Px 2px rgba(0,0,0,.2);
+background-color:#F8F9F9 ;
+background-size:cover;
+margin:auto;
+padding:5% 5%;
+border:1px solid #D6DBDF  ;
+line-height:1.5;
+width:90%;
+height:90%;  
+}
+
+/*link visited or unvisited*/
+a:link{
+color:#85929E  ;
+}
+a:visited{
+color:#85929E  ;
+}
+a:hover{
+color:#AEB6BF  ;
+}
+a:active{
+color:#85929E  ;
+}
+a:focus{
+color:#85929E  ;
+background-color:#accbd9;
+}
+/*----------*/
+li{
+list-style:none;
+border:1px solid #F8F9F9 ;
+list-style-position:inside;
+font-size:1.2em;
+background:#F8F9F9;
+    margin: 5px;
+}
+#list-item{
+
+}
+
+
+/*  Media Queries */
+
+@media (min-width: 0) and (max-width: 679px) {
+	header {
+		padding: 2em 0;
+	}
+	
+
+@media (min-width: 680px) {
+	header {
+		padding: 4.65em 0 2.5em;
+	}
+	
